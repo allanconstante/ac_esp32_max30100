@@ -1,2 +1,2 @@
-idf_component_register(SRCS "ac_driver_max30100.c" "ac_driver_max30100_interrupt.c"
+idf_component_register(SRCS "ac_esp32_max30100.c"
                     INCLUDE_DIRS "include")

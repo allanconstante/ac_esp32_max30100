@@ -1,10 +1,11 @@
-#pragma once
+
+#ifndef MAX30100_REGISTERS
+#define MAX30100_REGISTERS
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-//ENDEREÇOS
 #define DEVICE_ADDRESS              0x57
 #define INTERRUPT_STATUS            0x00
 #define INTERRUPT_ENABLE            0x01
@@ -80,3 +81,5 @@ typedef enum
 #ifdef __cplusplus
 }
 #endif
+
+#endif //MAX30100_REGISTERS
